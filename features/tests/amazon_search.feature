@@ -3,5 +3,5 @@ Feature: Amazon Search Tests
 
   Scenario: User can search on Amazon
     Given Open Amazon main page
-    Wheen ndSearch for table
+    Wheen Search for table
     Then Verify search results shown
