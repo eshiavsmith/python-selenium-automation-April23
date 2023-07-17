@@ -10,7 +10,7 @@ def open_cureskin(context):
     context.driver.get('https://shop.cureskin.com/search?q=cure')
 
 
-@then('Verify name, image and price')
+@then('Verify name, image and prices')
 def verify_items(context):
     items = context.driver.find_elements(*NAME), context.driver.find_elements(*IMAGE), context.driver.find_elements(*PRICE)
 
