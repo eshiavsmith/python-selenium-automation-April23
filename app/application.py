@@ -10,7 +10,7 @@ class Application:
         #must provide selenium driver
 
 
-        # self.header_page = HeaderPage(self.driver)
+        # self.header_page = HeaderPage(self.driver
         # self.main_page = MainPage(self.driver)
         # self.search_results = SearchResultsPage(self.driver)
         # self.signin_page = SignInPage(self.driver)
